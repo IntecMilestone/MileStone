@@ -1,0 +1,117 @@
+{
+	"packages":
+	[
+		{
+			"name": "MSTN",
+			"maintainer": "INTEC",
+			"websiteURL": "https://mstn.info",
+			"platforms":
+			[
+				{
+					"name": "MSTN",
+					"architecture": "sam",
+					"version": "1.1.0",
+					"url": "https://github.com/irsdkv/mstn-arduino-pack/raw/master/mstn/hardware/package_MSTN_index.zip",
+					"archiveFileName": "package_MSTN_index.zip",
+					"checksum": "SHA-256:1DF3629E0815C9627F0107CADE0B667C6EB8DFF147092C87D448D912BAF50DD9",
+					"size": "481145",
+					"boards":
+					[
+						{"name": "MSTN-100"}
+					],
+					"toolsDependencies": 
+					[
+						{
+							  "packager": "MSTN",
+							  "name": "arm-none-eabi-gcc",
+							  "version": "5.4-2016q3"
+						},
+						{
+							  "packager": "MSTN",
+							  "name": "client",
+							  "version": "1.0.0"
+						},
+						{
+							  "packager": "MSTN",
+							  "name": "CMSIS",
+							  "version": "4.5.0"
+						}
+					]
+				}
+			],
+			"tools": 
+			[
+				{
+					"name": "arm-none-eabi-gcc",
+					"version": "5.4-2016q3",
+					"systems":
+					[
+						{
+							"host": "i686-mingw32",
+							"archiveFileName": "arm-none-eabi-5.4-2016q3.zip",
+							"url": "https://github.com/irsdkv/mstn-arduino-pack/raw/master/mstn/tools/arm-none-eabi-5.4-2016q3.zip",
+							"checksum": "SHA-256:C87DF9211AFC83D19BB02262BC537540D17B612941CA3528F5453926D435D617",
+							"size": "78941941"
+						}
+					]
+				},
+			{
+				"name": "client",
+				"version": "1.0.0",
+				"systems":
+				[
+					{
+						"host": "i686-mingw32",
+						"archiveFileName": "client.zip",
+						"url": "https://github.com/irsdkv/mstn-arduino-pack/raw/master/mstn/tools/client.zip",
+						"checksum": "SHA-256:9D24B69321791393C0A1B22907E999EE37D37964560B5AC35419CEBD91428566",
+						"size": "415555"
+					}
+				]
+			},
+		       {
+               "name": "CMSIS",
+               "version": "4.5.0",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+                     "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                     "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                     "size": "31525196"
+                  },
+                  {
+					"host": "x86_64-apple-darwin",
+					"url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+					"archiveFileName": "CMSIS-4.5.0.tar.bz2",
+					"checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+					"size": "31525196"
+                  },
+                  {
+					"host": "x86_64-pc-linux-gnu",
+					"url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+					"archiveFileName": "CMSIS-4.5.0.tar.bz2",
+					"checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+					"size": "31525196"
+                  },
+                  {
+					"host": "i686-pc-linux-gnu",
+					"url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+					"archiveFileName": "CMSIS-4.5.0.tar.bz2",
+					"checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+					"size": "31525196"
+                  },
+                  {
+					"host": "all",
+					"url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+					"archiveFileName": "CMSIS-4.5.0.tar.bz2",
+					"checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+					"size": "31525196"
+                  }
+               ]
+            }
+		  ]
+		}	
+	]
+}

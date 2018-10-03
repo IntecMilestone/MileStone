@@ -64,8 +64,8 @@
 						"host": "i686-mingw32",
 						"archiveFileName": "client.zip",
 						"url": "https://github.com/IntecMilestone/Milestone/blob/master/mstn/tools/client.zip",
-						"checksum": "SHA-256:43FE8A8FBAC42347912D8F96C1612B7968DED1908CFF20216A725C36EAE05541",
-						"size": "415646"
+						"checksum": "SHA-256:9D24B69321791393C0A1B22907E999EE37D37964560B5AC35419CEBD91428566",
+						"size": "415555"
 					}
 				]
 			},
